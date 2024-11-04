@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  overflow-x: hidden !important;
+}
+ul{
+  list-style: none;
+  display: inline;
+}
+button{
+  background: none;
+}
+.mt-6{
+  margin-top: 6em !important;
+}
+.pointer{
+  cursor: pointer;
+}
+.mt-50{
+  margin-top: 45% !important;
+}
+.mt-20{
+  margin-top: 8% !important;
+}
+.gap-8{
+  gap: 6em;
+}
+.wsection{
+  max-width: 960px;
+  margin: 0 auto;
+
+}
+@media (max-width: 888px){
+  .wsection{
+    margin: 0 35px;
+  }
+}
+@media (max-width: 350px) {
+  .wsection{
+    margin: 0 10px;
+  }
+}
