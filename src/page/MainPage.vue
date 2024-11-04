@@ -107,4 +107,14 @@ export default {
     }
   }
 }
+  @media (max-width: 400px){
+  .mobile-menu{
+    left: 40px !important;
+  }
+}
+@media (max-width: 350px){
+  .mobile-menu{
+    left: 20px !important;
+  }
+}
 </style>
