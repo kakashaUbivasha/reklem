@@ -49,7 +49,7 @@ export default {
         { image: "/стакан.png", title: 'Кружка под сублимацию "Стандарт"', discount: "от 75₽" },
         { image: "/Ручка%204.png", title: "Эко-ручка", discount: "от 5₽" },
       ],
-      slidesPerView: 4, // количество карточек по умолчанию на большом экране
+      slidesPerView: 4, 
     };
   },
 };
