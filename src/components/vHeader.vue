@@ -181,7 +181,7 @@ li {
   padding-bottom: 400px;
   background-color: #f2f2f2;
 }
-@media (max-width: 800px){
+@media (max-width: 1065px){
   .jj{
     justify-content: space-between !important;
     margin: 0 35px;
@@ -228,7 +228,7 @@ li {
   }
 }
 }
-@media (max-width: 350px) {
+@media (max-width: 500px) {
   .lolo{
     display: none !important;
   }

@@ -280,7 +280,7 @@ export default {
     left: 70% !important;
   }
 }
-@media(max-width: 800px){
+@media(max-width: 1065px){
   .third{
     border-top-right-radius: 0 !important;
     padding: 80px 32px 140px 22px !important;
@@ -320,7 +320,7 @@ export default {
     }
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 500px) {
   .fifth-block{
     .more-comments{
       top: 70% !important;

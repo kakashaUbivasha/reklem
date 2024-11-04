@@ -97,7 +97,7 @@ export default {
     z-index: -1;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 1065px) {
   .form-block{
     padding: 70px 0 !important;
     border-radius: 0 !important;
@@ -112,7 +112,7 @@ export default {
   .form{
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 500px) {
   .form-block{
     grid-template-columns: repeat(1, 1fr);
     gap: 50px;

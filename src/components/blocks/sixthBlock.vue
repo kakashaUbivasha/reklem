@@ -173,7 +173,7 @@ export default {
   width: 200px;
   margin: 44px 0 0 auto;
 }
-@media (max-width: 350px) {
+@media (max-width: 500px) {
   .sixth-block{
     .first{
       h2{

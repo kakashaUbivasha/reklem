@@ -86,7 +86,7 @@ export default {
     margin-bottom: 5px;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 500px) {
   .mobile-menu{
     display: flex ;
     width: 300px;

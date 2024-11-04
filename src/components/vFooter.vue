@@ -240,7 +240,7 @@ li{
   width: 100%;
   border-top-color: transparent;
 }
-@media (max-width: 800px) {
+@media (max-width: 1065px) {
   .footer{
     .nav-list{
       bottom: 14%;
@@ -287,7 +287,7 @@ li{
   }
 }
 }
-@media (max-width: 350px) {
+@media (max-width: 700px) {
   .footer{
     .nav-list{
       bottom: 20%;

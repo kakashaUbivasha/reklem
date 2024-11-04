@@ -129,7 +129,7 @@ export default {
     }
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 600px) {
   .product{
     height: 234px;
     width: 120px;

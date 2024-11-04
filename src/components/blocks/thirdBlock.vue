@@ -7,7 +7,7 @@
         :navigation="false"
         :breakpoints="{
         320: { slidesPerView: 2 },
-        768: { slidesPerView: 2 },
+        500: { slidesPerView: 4 },
         1024: { slidesPerView: 3 },
         1280: { slidesPerView: 4 }
       }"
@@ -42,14 +42,14 @@ export default {
   data() {
     return {
       products: [
-        { image: "/стакан.png", title: 'Кружка под сублимацию "Стандарт"', discount: "от 75₽" },
-        { image: "/Ручка%204.png", title: "Эко-ручка", discount: "от 5₽" },
-        { image: "/чехол.png", title: "Чехол-крышка для телефона iPhone 8+", discount: "от 85₽" },
-        { image: "/флешка.png", title: 'Флеш-карта "Элегант"', discount: "от 175₽" },
-        { image: "/стакан.png", title: 'Кружка под сублимацию "Стандарт"', discount: "от 75₽" },
-        { image: "/Ручка%204.png", title: "Эко-ручка", discount: "от 5₽" },
+        { image: "/public/стакан.png", title: 'Кружка под сублимацию "Стандарт"', discount: "от 75₽" },
+        { image: "/public/Ручка%204.png", title: "Эко-ручка", discount: "от 5₽" },
+        { image: "/public/чехол.png", title: "Чехол-крышка для телефона iPhone 8+", discount: "от 85₽" },
+        { image: "/public/флешка.png", title: 'Флеш-карта "Элегант"', discount: "от 175₽" },
+        { image: "/public/стакан.png", title: 'Кружка под сублимацию "Стандарт"', discount: "от 75₽" },
+        { image: "/public/Ручка%204.png", title: "Эко-ручка", discount: "от 5₽" },
       ],
-      slidesPerView: 4, 
+      slidesPerView: 4, // количество карточек по умолчанию на большом экране
     };
   },
 };
@@ -85,7 +85,7 @@ export default {
     cursor: pointer;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 1065px) {
   .third-block{
     margin: 0 35px;
   }
@@ -93,7 +93,7 @@ export default {
     display: none;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 500px) {
   .third-block{
     margin: 0 10px;
     .products{

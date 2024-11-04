@@ -60,7 +60,7 @@ export default {
     border-radius: 10px;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 1065px) {
   .btn-services{
     bottom: -30px !important;
   }

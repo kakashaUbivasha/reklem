@@ -234,7 +234,7 @@ export default {
     padding-bottom: 200px;
   }
 }
-@media (max-width: 800px){
+@media (max-width: 1065px){
   .third{
     margin-top: 250px;
     padding-top: 200px;
@@ -264,7 +264,7 @@ export default {
     transform: scaleX(-1);
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 500px) {
   .first{
     width: 300px;
     height: 300px;

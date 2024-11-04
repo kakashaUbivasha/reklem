@@ -40,7 +40,7 @@ p {
   font-weight: 600;
   padding-top: 13px;
 }
-@media (max-width: 350px) {
+@media (max-width: 500px) {
   .btn-custom{
     width: 120px;
   }

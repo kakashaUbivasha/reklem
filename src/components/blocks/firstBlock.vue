@@ -119,7 +119,7 @@ h2{
     }
   }
 }
-@media (max-width: 800px){
+@media (max-width: 1065px){
 
   .pictures{
     width: 322px;
@@ -151,7 +151,7 @@ h2{
       }
 
           } }
-@media (max-width: 350px) {
+@media (max-width: 500px) {
   h2{
     font-size: 20px;
   }
