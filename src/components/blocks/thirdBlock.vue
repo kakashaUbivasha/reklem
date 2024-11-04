@@ -42,12 +42,12 @@ export default {
   data() {
     return {
       products: [
-        { image: "/public/стакан.png", title: 'Кружка под сублимацию "Стандарт"', discount: "от 75₽" },
-        { image: "/public/Ручка%204.png", title: "Эко-ручка", discount: "от 5₽" },
-        { image: "/public/чехол.png", title: "Чехол-крышка для телефона iPhone 8+", discount: "от 85₽" },
-        { image: "/public/флешка.png", title: 'Флеш-карта "Элегант"', discount: "от 175₽" },
-        { image: "/public/стакан.png", title: 'Кружка под сублимацию "Стандарт"', discount: "от 75₽" },
-        { image: "/public/Ручка%204.png", title: "Эко-ручка", discount: "от 5₽" },
+        { image: "/стакан.png", title: 'Кружка под сублимацию "Стандарт"', discount: "от 75₽" },
+        { image: "/Ручка%204.png", title: "Эко-ручка", discount: "от 5₽" },
+        { image: "/чехол.png", title: "Чехол-крышка для телефона iPhone 8+", discount: "от 85₽" },
+        { image: "/флешка.png", title: 'Флеш-карта "Элегант"', discount: "от 175₽" },
+        { image: "/стакан.png", title: 'Кружка под сублимацию "Стандарт"', discount: "от 75₽" },
+        { image: "/Ручка%204.png", title: "Эко-ручка", discount: "от 5₽" },
       ],
       slidesPerView: 4, // количество карточек по умолчанию на большом экране
     };
