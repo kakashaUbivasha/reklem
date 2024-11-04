@@ -91,10 +91,10 @@ export default {
 data(){
   return{
     cards:[
-      {image: '/public/services1.svg', title: 'Гравировка', text: 'Нанесем на изделия логотип, рисунок или надпись'},
-      {image: '/public/services2.svg', title: 'Шелкография', text: 'Изображения высоко качества на любых материалах'},
-      {image: '/public/services3.svg', title: 'Тиснение', text: 'Нанесения рельефного рисунка'},
-      {image: '/public/services4.svg', title: 'Тампопечать', text: 'Перенос изображения с помощью силиконового валика'},
+      {image: '/services1.svg', title: 'Гравировка', text: 'Нанесем на изделия логотип, рисунок или надпись'},
+      {image: '/services2.svg', title: 'Шелкография', text: 'Изображения высоко качества на любых материалах'},
+      {image: '/services3.svg', title: 'Тиснение', text: 'Нанесения рельефного рисунка'},
+      {image: '/services4.svg', title: 'Тампопечать', text: 'Перенос изображения с помощью силиконового валика'},
     ]
   }
 }
